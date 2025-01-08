@@ -19,7 +19,7 @@ class Config(object):
     def __init__(self):
         self.epochs = 300
         self.optimizer = AdamW
-        self.lr = 1e-3
+        self.lr = 1e-4
         self.final_lr = 0.001 # rate
         self.grad_clip = 1.
 
