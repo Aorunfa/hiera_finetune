@@ -51,7 +51,7 @@ python ./train_ft.py
 python ./train_mae.py
 ```
 
-## 单机多卡训练
+## 单机多卡训练 - todo
 ```bash
 python -m torch.distributed.run --nproc_per_node 4 --nnodes 1 ./train_ft_dist.py
 python -m torch.distributed.run --nproc_per_node 4 --nnodes 1 ./train_mae_dist.py
