@@ -52,10 +52,7 @@ python ./train_mae.py
 ```
 
 ## 单机多卡训练 - todo
-```bash
-python -m torch.distributed.run --nproc_per_node 4 --nnodes 1 ./train_ft_dist.py
-python -m torch.distributed.run --nproc_per_node 4 --nnodes 1 ./train_mae_dist.py
-```
+不再追加，请参考分布训练代码[clip_finetune](https://github.com/Aorunfa/clip_finetune.git)
 
 # 训练指标说明
 # * 微调
