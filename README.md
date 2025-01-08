@@ -60,11 +60,11 @@ python -m torch.distributed.run --nproc_per_node 4 --nnodes 1 ./train_mae_dist.p
 # 训练指标说明
 # * 微调
 使用准确率作为分类指标
-![微调](doc/heira_ft.png "微调指标")  
+![微调](doc/hiera_ft.png "微调指标")  
 
 # * 预训练mae
 mae预训练采用验证集的loss作为检测指标，loss使用MSE度量mask区域真实向量分布与预测向量分布的差异
-![mae](doc/heira_mae.png "mae指标")  
+![mae](doc/hiera_mae.png "mae指标")  
 
 
 
